@@ -1,6 +1,6 @@
 ``` mermaid
 graph TD;
-    Start((Start)) --> CR[Change Request];
+    Start((Product Request)) --> CR[Change Request];
     CR --> ReviewEM[Review EM];
     ReviewEM --> |Not Approved| NoteReviewEM[Reason Note];
     NoteReviewEM --> CR;
