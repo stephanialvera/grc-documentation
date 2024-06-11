@@ -1,6 +1,6 @@
 ``` mermaid
 graph TD;
-    Start((Start)) --> BRD[Bussiness Requirement Documents];
+    Start((Product Request)) --> BRD[Bussiness Requirement Documents];
     BRD --> PRD[Product Requirement Documents];
     PRD --> ReviewEM[Review EM];
     ReviewEM --> |Not Approved| NoteReviewEM[Reason Note];
